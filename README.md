@@ -2,7 +2,8 @@
 
 In order to run single weight transfer and cyclical weight transfer follow the steps:
 
-# 1) setup the environment according to the challenges page: https://github.com/FETS-AI/Challenge/tree/main/Task_1
+
+# 1) setup the environment according to the challenge's page: https://github.com/FETS-AI/Challenge/tree/main/Task_1
 # 2) run python split_data.py -p "path for dataset" -f "name of partitioning csv file" -s "percentage for training"
 #You can check the parameters and their default value running python split_data.py -h for help
 -" Data split csvs will be generated for central learning split_single_new.csv and for the travelling models split_new.csv
@@ -33,3 +34,4 @@ In order to run single weight transfer and cyclical weight transfer follow the s
 
 -" validation.py can be used to load validation data from the train-val split and a model using cpt to generate the evaluation metrics
 #check -h for help and to verify the parameters
+
